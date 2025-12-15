@@ -1,5 +1,23 @@
-/target
-/datos_procesados
-/imagenes
-**/.DS_Store
+# Rust
+target/
+Cargo.lock
+
+# Datos intermedios y auxiliares
+salida/
+diccionarios/
+datos.json
+
+# R
+.RData
+.Rhistory
+
+# Archivos comprimidos
+*.tar.gz
+
+# Azure / ML
+.azureml/
+.ipynb_checkpoints/
+
+# Sistema
 .DS_Store
+
